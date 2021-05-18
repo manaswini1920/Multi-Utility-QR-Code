@@ -1,0 +1,2 @@
+# Multi-Utility-QR-Code
+citizens pay the bills through QR code by saving the user information in the database. User credentials which include electricity bill, water bill, waste bill, house tax are collected in the sign up page  then generates a QR code regarding given details of the user. User will have a copy of their QR code. When user wish to pay any bill,  he/she will have to login and scan their QR Code.
