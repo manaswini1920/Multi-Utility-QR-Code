@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgrnd"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:textColor="#03af7f"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="User name"
+        android:id="@+id/name"
+
+        android:ems="15"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/edittext"
+        android:textColor="#012626"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Password"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+
+        android:ems="15"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:textColor="#012626"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Submit"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New user? "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="#4eb99b"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register here.. "
+        android:layout_marginLeft="80dp"
+
+
+        android:textSize="20sp"
+        android:id="@+id/reg"
+
+        android:textColor="#03af7f"/>
+</LinearLayout>
